@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+            font-family: idroid;
+            src: url(fontes/idroid.otf) format('opentype'); 
+        }
+
+body {
+    background-color: rgb(132, 225, 173);
+    margin: 0; 
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 200px;
+    margin-top: 0;
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom, rgb(2, 175, 77), rgb(0, 10, 0));
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 1px;
+    margin: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+header > h1,p.principal {
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+article > h1,h2 {
+    color: green;
+    font-family: idroid;
+    padding: 10px;
+}
+
+article > h1{
+    font-size: 30px;
+    text-align: left;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right,rgba(101, 236, 159, 0.651), rgba(255, 255, 255, 0.651));
+    text-align: left;
+    text-indent: 10px;
+    margin: 30px;
+    padding: 1px;
+}
+
+div {
+     background-color: green;
+}
+
+article > ul {
+    display: inline-block;
+}
+
+article > p.aprender {
+    background-color: green;
+    
+}
+
+.versao {
+    background-color: rgb(132, 225, 173);
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(25, 92, 55);
+    padding: 1px;
+    margin: 0;
+}
