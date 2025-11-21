@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
 </head>
 <style>
     body {
+        /*  
         height: 100vh;
         background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: center center;
         background-size: cover;
+        background-attachment: fixed;
+        */
+
+        /* Shorthand - background
+        Color | Image | Position | Repeat | [size] > Attachment
+        */
+
+        background: black url('imagens/wallpaper002.jpg') no-repeat center center / cover fixed;
     }
 
     main {
         background-color: white;        
-        width: 400px;
+        max-width: 400px;
         border: 1px solid blue;
         border-radius: 20px;
         margin: auto;
